@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Screen - Multipurpose Template By Bootstrapious.com</title>
+    <title>Workprogramming</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="robots" content="all,follow">
@@ -18,6 +18,8 @@
     <link rel="stylesheet" href="css/onepage-scroll.css">
     <!-- theme stylesheet-->
     <link rel="stylesheet" href="css/style.default.css" id="theme-stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/scrolling-nav.css" rel="stylesheet">
     <!-- Custom stylesheet - for your changes-->
     <link rel="stylesheet" href="css/custom.css">
     <!-- Favicon-->
@@ -28,8 +30,11 @@
   </head>
   <body>
   
-  <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+  
+    <div class="wrapper">
+      <div class="main"> 
+      <!-- Navigation -->
+   <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
         <div class="container">
             <div class="navbar-header page-scroll">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
@@ -38,8 +43,8 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top">Start Bootstrap</a>
-            </div>
+                <a class="navbar-brand page-scroll" href="#page-top">Workprogramming</a>
+            </div> 
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse navbar-ex1-collapse">
@@ -55,16 +60,20 @@
                         <a class="page-scroll" href="#page3">Services</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#page4"><img src="img/macbook-juice.jpg" alt="" /><img src="img/macbook-juice.jpg" alt="" />Portfolio</a>
+                        <a class="page-scroll" href="#page4">Portfolio</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#page5">Page5</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#page6">Page6</a>
                     </li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
         </div>
         <!-- /.container -->
-    </nav>
-    <div class="wrapper">
-      <div class="main"> 
+    </nav>  
         <!-- page 1-->
         <section id="page1">
           <div class="overlay"></div>
@@ -73,7 +82,7 @@
               <div class="row">
                 <div class="col-md-8 col-md-offset-2 col-sm-12">
                   <p class="italic">Oh, hello, nice to meet you!</p>
-                  <h1>My name is Screen.</h1>
+                  <h1>Workprogramming</h1>
                   <p class="italic">I am a nice scrolling template prepared for portfolio, telling stories and short presentations.</p>
                   <p class="italic">I have best results with nice pictures on the background or nice colours.</p>
                 </div>
