@@ -38,7 +38,7 @@ of those sections to manage the look and feel of the site. */
     align-content: center;
     padding-top: 150px;
     text-align: center;
-    background: url('../img/1.jpg') center center 50% 70% no-repeat;
+    background: url('../img/1.jpg') center center no-repeat;
     background-color: #eee;
     
     
