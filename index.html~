@@ -48,10 +48,10 @@
                 <ul class="nav navbar-nav">
                     <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
                     <li class="hidden">
-                        <a class="page-scroll" href="#page-top"></a>
+                        <a class="btn btn-primary btn-sm" href="#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#about">About</a>
+                        <p class="navbar-btn"><a class="page-scroll navbar-btn" href="#about">About</a></p>
                     </li>
                     <li>
                         <a class="page-scroll" href="#services">Services</a>
@@ -60,6 +60,7 @@
                         <a class="page-scroll" href="#contact">Contact</a>
                     </li>
                 </ul>
+               
             </div>
             <!-- /.navbar-collapse -->
         </div>
@@ -70,14 +71,12 @@
     <section id="intro" class="intro-section">
         <div class="container">
             <div class="row">
-            <div class="col-md-8 col-md-offset-2 col-sm-12">
-                  <p class="italic">Oh, hello, nice to meet you!</p>
+                <div class="col-lg-12">
+                    <h1>Scrolling Nav</h1>
+                    <p class="italic">Oh, hello, nice to meet you!</p>
                   <h1>Workprogramming</h1>
                   <p class="italic">I am a nice scrolling template prepared for portfolio, telling stories and short presentations.</p>
                   <p class="italic">I have best results with nice pictures on the background or nice colours.</p>
-                </div> 
-                <div class="col-lg-12">
-                    <h1>Scrolling Nav</h1>
                     <p><strong>Usage Instructions:</strong> Make sure to include the <code>scrolling-nav.js</code>, <code>jquery.easing.min.js</code>, and <code>scrolling-nav.css</code> files. To make a link smooth scroll to another section on the page, give the link the <code>.page-scroll</code> class and set the link target to a corresponding ID on the page.</p>
                     <a class="btn btn-default page-scroll" href="#about">Click Me to Scroll Down!</a>
                 </div>
