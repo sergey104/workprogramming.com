@@ -18,7 +18,7 @@ html {
 .navbar {
     width: 60%;
     margin: auto;
-    
+   
     
 }
 
@@ -115,21 +115,15 @@ The padding is very important to make sure the scrollspy picks up the right area
 of those sections to manage the look and feel of the site. */
 
 .intro-section {
-    height: 100%;
-    
-    margin: auto;
-    margin-bottom: 0;
-    background: #ecf;
-    
+    height: 70px;
     padding-top: 100px;
-    padding-bottom: 100px;
-    padding-left: 50px;
-    
+    padding-bottom: 15px;
+    padding-left: 25px;
+    border:solid;
     text-align: left; 
-    background: url('../img/8.jpg') #fff center center no-repeat;
-    
-    background-size: 100% 100%; 
-    
+   /* background: url('../img/8.jpg') #fff no-repeat; */
+    background-color: green;
+  
     
 }
 
@@ -138,7 +132,14 @@ of those sections to manage the look and feel of the site. */
     padding-top: 150px;
     text-align: center;
     background: #cfe;
-    margin: auto;
+    content: "";
+    display: block;
+    max-width: 100%;
+    background-color: #f3f;
+    background-image: url('../img/8.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-top: 55.375%; 
 }
 
 .services-section {
