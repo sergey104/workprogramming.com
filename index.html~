@@ -56,7 +56,7 @@
                         <ul id="nav" class="nav navbar-nav">
                             <li class="scroll"><a href="#home" data-section="#home">Home</a></li>
                             <li class="scroll"><a href="#about" data-section="#about">About</a></li>
-                            <li class="scroll"><a href="#features" data-section="#features">Feature</a></li>
+                            <li class="scroll"><a href="#features" data-section="#features">Features</a></li>
                             <li class="scroll"><a href="#services" data-section="#services">Services</a></li>
                             <li class="scroll"><a href="#portfolio" data-section="#portfolio">Portfolio</a></li>
                             <li class="scroll"><a href="#contact-area" data-section="#contact-area">Contact</a></li> 
@@ -202,8 +202,8 @@
     <section id="features">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title text-center wow fadeInDown">Awesome Features</h2>
-                <p class="text-center wow fadeInDown">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br> et dolore magna aliqua. Ut enim ad minim veniam</p>
+                <h2 class="section-title text-center wow fadeInDown">Features</h2>
+                <p class="text-center wow fadeInDown">Cost and Quality Advantages</p>
             </div>
             <div class="row">
                 <div class="col-sm-6 wow fadeInLeft">
@@ -260,8 +260,8 @@ Transparency and clarity are the crucial success factors in development.</p>
         <div class="container">
             <div class="text-center">
                 <h2 class="wow fadeInUp" data-wow-duration="300ms" data-wow-delay="0ms">YOU'VE MADE A brave DECISION, <span>WELCOME</span></h2>
-                <p class="wow fadeInUp" data-wow-duration="300ms" data-wow-delay="100ms">Mauris pretium auctor quam. Vestibulum et nunc id nisi fringilla <br />iaculis. Mauris pretium auctor quam.</p>
-                <p class="wow fadeInUp" data-wow-duration="300ms" data-wow-delay="200ms"><a class="btn btn-primary btn-lg" href="#">Get It Now</a></p>
+                <p class="wow fadeInUp" data-wow-duration="300ms" data-wow-delay="100ms">Welcome, and we look forward to serving you and working with you to achieve your goals.</p>
+                <p class="wow fadeInUp" data-wow-duration="300ms" data-wow-delay="200ms"><a class="btn btn-primary btn-lg" href="#contact-area">Contact us now</a></p>
             </div>
         </div>
     </section>
@@ -322,7 +322,7 @@ Transparency and clarity are the crucial success factors in development.</p>
                                 <i class="fa fa-user-secret"></i>
                             </div>
                             <h3 class="features-title font-alt">QA and Testing</h3>
-                            Careful attention to detail and clean, well structured code ensures a smooth user experience for all your visitors.
+                            We provide effective and intelligent testing solutions to identify and remove software defects.
                         </div>
                     </div>
 
