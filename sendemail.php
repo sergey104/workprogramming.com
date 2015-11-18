@@ -1,8 +1,13 @@
 <?php
-$name       = @trim(stripslashes($_POST['name'])); 
-$from       = @trim(stripslashes($_POST['email'])); 
-$subject    = @trim(stripslashes($_POST['subject'])); 
-$message    = @trim(stripslashes($_POST['message'])); 
+header('Content-type: application/json');
+$status = array(
+'type'=>'success',
+'message'=>'Thank you for contact us. As early as possible we will contact you '
+);
+$name       = trim(stripslashes($_POST['name'])); 
+$from       = trim(stripslashes($_POST['email'])); 
+$subject    = trim(stripslashes($_POST['subject'])); 
+$message    = trim(stripslashes($_POST['message'])); 
 $to   		= 'info@workprogramming.com';//replace with your email
 
 $headers   = array();
@@ -13,7 +18,9 @@ $headers[] = "Reply-To: <{$from}>";
 $headers[] = "Subject: {$subject}";
 $headers[] = "X-Mailer: PHP/".phpversion();
 
-mail($to, $subject, $message, $headers);
-
+$success = mail($to, $subject, $message, $headers);
+echo json_encode($success);
+$success = mail($to, 'test', 'kkkkkk', 'From:g@gmail.com');
+echo json_encode($success);
 die;
-?>
+

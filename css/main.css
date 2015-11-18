@@ -9,7 +9,7 @@ Author URL:
 *******Typography******
 **************************/
 body {
-  padding-top: 60px;
+  padding-top: 70px;
   background: #fff;
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
@@ -43,10 +43,14 @@ a:hover,
 a:focus {
   text-decoration: none;
   color: #72C05B;
+  outline: none;
 }
 hr {
   border-top: 1px solid #e5e5e5;
   border-bottom: 1px solid #fff;
+}
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+	text-decoration: underline;
 }
 
 .gradiant {
@@ -172,6 +176,7 @@ ul.nostyle i {
 }
 #top-header {
   padding: 10px 0;
+  opacity: .9;
 }
 
 @media only screen and (min-width: 768px) {
@@ -549,6 +554,7 @@ ul.nostyle i {
   padding: 100px 0;
   color: #fff;
   text-align: center;
+  height: 676px;
 }
 #testimonial h4 {
   color: #fff;
@@ -568,8 +574,14 @@ ul.nostyle i {
 #testimonial .img-thumbnail {
   background: transparent;
 }
+#testimonial #carousel-testimonial {
+	height: 480px;
+	position: relative;
+}
 #testimonial #carousel-testimonial .btns {
-    margin-top: 30px;
+    bottom: 0;
+	position: absolute;
+	width: 100%;
 }
 #testimonial #carousel-testimonial .btns a {
   margin:0 2px;
@@ -645,8 +657,7 @@ ul.nostyle i {
 ********* Footer ******
 ************************/
 #footer {
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 20px;
   color: #fff;
   background: #2e2e2e;
 }
@@ -664,6 +675,9 @@ ul.nostyle i {
 #footer ul > li {
   display: inline-block;
   margin: 0 7.5px;
+}
+#footer p.text-center {
+	font-size: 14px;
 }
 @media only screen and (min-width: 768px) {
   #footer .social-icons {
